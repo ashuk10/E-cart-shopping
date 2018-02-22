@@ -9,7 +9,7 @@ module.exports = function(app){
 );
 
 app.get('/',function(req,res){
-	res.render('shopping');
+	res.render('shong');
 });
 //app.get('product/get',products.getProduct);
 app.get('/products/get',products.getProducts);
